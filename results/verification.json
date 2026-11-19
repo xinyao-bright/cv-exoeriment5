@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "absolute_tolerance": 1e-12,
+  "scope": "export consistency; does not authenticate MNIST labels or rerun inference",
+  "input_sha256": {
+    "summary.json": "7523d6447dfdca922009dc3190d7090a64f0bdf40299afd950977b191067837e",
+    "histories.csv": "c30d2ae49773c1c4148ecc779aee76824485703b4410b748298e069b98c93313",
+    "predictions.csv": "15b0be337df94e36592d0f4542dce94e563ff85eafc04f760d73e3bd19f5d966",
+    "split_indices.npz": "f02175b6640a2d37e4d87fe13e593909a5221c04678682e5831dbf8b2710dc54"
+  },
+  "split": {
+    "train": 55000,
+    "validation": 5000,
+    "test": 10000,
+    "sha256": "bea944120835e8941098faa6008859caafe1e286297718a2d41795c151027ee7",
+    "validation_per_class": 500,
+    "class_balance_check": "summary declaration only; raw MNIST labels not read"
+  },
+  "histories": {
+    "baseline": {
+      "epochs": 15,
+      "best_epoch": 12
+    },
+    "relu": {
+      "epochs": 15,
+      "best_epoch": 6
+    },
+    "shift": {
+      "epochs": 15,
+      "best_epoch": 12
+    }
+  },
+  "predictions": {
+    "baseline": {
+      "total": 10000,
+      "correct": 9865,
+      "errors": 135,
+      "accuracy": 0.9865,
+      "macro_f1": 0.986418698710074,
+      "shift_accuracy": {
+        "up": 0.8962,
+        "down": 0.93,
+        "left": 0.946,
+        "right": 0.9543
+      },
+      "mean_shift_accuracy": 0.9316249999999999
+    },
+    "relu": {
+      "total": 10000,
+      "correct": 9879,
+      "errors": 121,
+      "accuracy": 0.9879,
+      "macro_f1": 0.9877882525326953,
+      "shift_accuracy": {
+        "up": 0.9153,
+        "down": 0.929,
+        "left": 0.9537,
+        "right": 0.9483
+      },
+      "mean_shift_accuracy": 0.936575
+    },
+    "shift": {
+      "total": 10000,
+      "correct": 9897,
+      "errors": 103,
+      "accuracy": 0.9897,
+      "macro_f1": 0.9896956713211578,
+      "shift_accuracy": {
+        "up": 0.9876,
+        "down": 0.9889,
+        "left": 0.9882,
+        "right": 0.989
+      },
+      "mean_shift_accuracy": 0.988425
+    }
+  }
+}

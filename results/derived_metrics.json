@@ -1,0 +1,26 @@
+{
+  "wilson_95": {
+    "baseline": [
+      0.9840440184680531,
+      0.9885823373910801
+    ],
+    "relu": [
+      0.9855619587069417,
+      0.9898633219172537
+    ],
+    "shift": [
+      0.9875245005287644,
+      0.991499397650511
+    ]
+  },
+  "paired_clean_vs_baseline": {
+    "relu": {
+      "candidate_only_correct": 77,
+      "baseline_only_correct": 63
+    },
+    "shift": {
+      "candidate_only_correct": 91,
+      "baseline_only_correct": 59
+    }
+  }
+}

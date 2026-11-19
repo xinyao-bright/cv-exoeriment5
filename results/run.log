@@ -1,0 +1,51 @@
+{"python": "3.10.21", "pytorch": "2.15.0.dev20260923+cpu", "torchvision": "0.30.0.dev20260922+cpu", "numpy": "2.2.6", "device": "cpu", "threads": 4, "platform": "Windows-10-10.0.26200-SP0"}
+baseline epoch 01/15 train_loss=1.96053 train_acc=0.26680 val_loss=1.15504 val_acc=0.56160 seconds=10.99
+baseline epoch 02/15 train_loss=0.58732 train_acc=0.80209 val_loss=0.29692 val_acc=0.91240 seconds=7.57
+baseline epoch 03/15 train_loss=0.21230 train_acc=0.93498 val_loss=0.16880 val_acc=0.94820 seconds=7.49
+baseline epoch 04/15 train_loss=0.13998 train_acc=0.95673 val_loss=0.13358 val_acc=0.95840 seconds=20.75
+baseline epoch 05/15 train_loss=0.09815 train_acc=0.97049 val_loss=0.10575 val_acc=0.96540 seconds=7.34
+baseline epoch 06/15 train_loss=0.07886 train_acc=0.97524 val_loss=0.08614 val_acc=0.97200 seconds=7.90
+baseline epoch 07/15 train_loss=0.06438 train_acc=0.98020 val_loss=0.07319 val_acc=0.97880 seconds=7.71
+baseline epoch 08/15 train_loss=0.05364 train_acc=0.98365 val_loss=0.06999 val_acc=0.97960 seconds=25.33
+baseline epoch 09/15 train_loss=0.04934 train_acc=0.98455 val_loss=0.06455 val_acc=0.97780 seconds=39.84
+baseline epoch 10/15 train_loss=0.04281 train_acc=0.98587 val_loss=0.06455 val_acc=0.98060 seconds=33.30
+baseline epoch 11/15 train_loss=0.03796 train_acc=0.98780 val_loss=0.05928 val_acc=0.98200 seconds=35.47
+baseline epoch 12/15 train_loss=0.03354 train_acc=0.98947 val_loss=0.05572 val_acc=0.98340 seconds=32.40
+baseline epoch 13/15 train_loss=0.03306 train_acc=0.98869 val_loss=0.06280 val_acc=0.98240 seconds=31.02
+baseline epoch 14/15 train_loss=0.02698 train_acc=0.99153 val_loss=0.05701 val_acc=0.98360 seconds=22.44
+baseline epoch 15/15 train_loss=0.02460 train_acc=0.99222 val_loss=0.05922 val_acc=0.98280 seconds=7.58
+relu epoch 01/15 train_loss=0.44232 train_acc=0.85578 val_loss=0.11322 val_acc=0.96560 seconds=7.51
+relu epoch 02/15 train_loss=0.08839 train_acc=0.97291 val_loss=0.08929 val_acc=0.97620 seconds=8.50
+relu epoch 03/15 train_loss=0.06038 train_acc=0.98131 val_loss=0.06637 val_acc=0.98040 seconds=8.28
+relu epoch 04/15 train_loss=0.04481 train_acc=0.98635 val_loss=0.06304 val_acc=0.98200 seconds=8.15
+relu epoch 05/15 train_loss=0.03761 train_acc=0.98827 val_loss=0.05178 val_acc=0.98520 seconds=14.17
+relu epoch 06/15 train_loss=0.03299 train_acc=0.98915 val_loss=0.04299 val_acc=0.98860 seconds=7.10
+relu epoch 07/15 train_loss=0.02911 train_acc=0.99053 val_loss=0.05192 val_acc=0.98440 seconds=6.82
+relu epoch 08/15 train_loss=0.02440 train_acc=0.99222 val_loss=0.06262 val_acc=0.98180 seconds=6.45
+relu epoch 09/15 train_loss=0.02465 train_acc=0.99195 val_loss=0.05197 val_acc=0.98620 seconds=6.35
+relu epoch 10/15 train_loss=0.02379 train_acc=0.99225 val_loss=0.07113 val_acc=0.98180 seconds=6.83
+relu epoch 11/15 train_loss=0.01667 train_acc=0.99484 val_loss=0.05045 val_acc=0.98680 seconds=7.97
+relu epoch 12/15 train_loss=0.01601 train_acc=0.99464 val_loss=0.04434 val_acc=0.98860 seconds=8.26
+relu epoch 13/15 train_loss=0.01451 train_acc=0.99489 val_loss=0.05004 val_acc=0.98660 seconds=6.58
+relu epoch 14/15 train_loss=0.01338 train_acc=0.99584 val_loss=0.04630 val_acc=0.98840 seconds=4.24
+relu epoch 15/15 train_loss=0.01023 train_acc=0.99673 val_loss=0.05399 val_acc=0.98860 seconds=3.86
+shift epoch 01/15 train_loss=0.50449 train_acc=0.83124 val_loss=0.11192 val_acc=0.96700 seconds=3.95
+shift epoch 02/15 train_loss=0.11183 train_acc=0.96553 val_loss=0.06653 val_acc=0.98020 seconds=3.97
+shift epoch 03/15 train_loss=0.08250 train_acc=0.97349 val_loss=0.06209 val_acc=0.98140 seconds=4.11
+shift epoch 04/15 train_loss=0.06537 train_acc=0.97949 val_loss=0.05153 val_acc=0.98580 seconds=4.18
+shift epoch 05/15 train_loss=0.05864 train_acc=0.98169 val_loss=0.05159 val_acc=0.98380 seconds=4.47
+shift epoch 06/15 train_loss=0.05015 train_acc=0.98429 val_loss=0.04376 val_acc=0.98560 seconds=4.56
+shift epoch 07/15 train_loss=0.04710 train_acc=0.98555 val_loss=0.04730 val_acc=0.98700 seconds=4.17
+shift epoch 08/15 train_loss=0.04655 train_acc=0.98458 val_loss=0.06157 val_acc=0.98240 seconds=4.00
+shift epoch 09/15 train_loss=0.04335 train_acc=0.98635 val_loss=0.04526 val_acc=0.98680 seconds=4.08
+shift epoch 10/15 train_loss=0.03905 train_acc=0.98744 val_loss=0.05376 val_acc=0.98580 seconds=4.24
+shift epoch 11/15 train_loss=0.03503 train_acc=0.98907 val_loss=0.04622 val_acc=0.98660 seconds=4.05
+shift epoch 12/15 train_loss=0.03425 train_acc=0.98929 val_loss=0.03575 val_acc=0.98880 seconds=4.20
+shift epoch 13/15 train_loss=0.03506 train_acc=0.98891 val_loss=0.05136 val_acc=0.98520 seconds=4.47
+shift epoch 14/15 train_loss=0.03260 train_acc=0.98991 val_loss=0.04302 val_acc=0.98780 seconds=4.15
+shift epoch 15/15 train_loss=0.03258 train_acc=0.98949 val_loss=0.05892 val_acc=0.98440 seconds=4.25
+All training and validation selection finished. Beginning locked test evaluation.
+TEST baseline accuracy=0.98650 macro_f1=0.98642 shift_mean=0.93162
+TEST relu accuracy=0.98790 macro_f1=0.98779 shift_mean=0.93658
+TEST shift accuracy=0.98970 macro_f1=0.98970 shift_mean=0.98842
+Saved summary.json, histories.csv, predictions.csv, split_indices.npz, analysis.npz, and checkpoints.
